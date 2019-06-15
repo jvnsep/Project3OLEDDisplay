@@ -9,3 +9,17 @@ The project design an embedded system of a simple computer game. The project sho
 ## 2. Method
 
 ### a. Project Development
+
+![alt text](https://github.com/jvnsep/Project2BubbleDisplay/blob/master/result/flow.png "Development Flow Chart")
+
+### b. Circuit Design
+Circuit Diagram: 
+![alt text](https://github.com/jvnsep/Project2BubbleDisplay/blob/master/result/circuit.png "Circuit Diagram")
+
+Materials:
+1. Teensy 3.2 Microcontroller
+2. QDSP-6064 4-Digits 7-Segments LED display
+3. 4pcs IRLU8743PbF Power MOSFETs
+2. 8pcs. 390Ω resistors connected from μC pins to anodes LED display
+3. 4pcs. 1kΩ resistors conneted to drain of mosfets
+4. 2pcs push button switches connected from μC pins to ground 
