@@ -14,7 +14,7 @@ The project design an embedded system of a simple computer game. The project sho
 
 ### b. Circuit Design
 Circuit Diagram: 
-![alt text](https://github.com/jvnsep/Project2BubbleDisplay/blob/master/result/circuit.png "Circuit Diagram")
+![alt text](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/schematic%20diagram.pdf "Circuit Diagram")
 
 Materials:
 1. Teensy 3.2 Microcontroller
