@@ -10,7 +10,7 @@ The project design an embedded system of a simple computer game. The project sho
 
 ### a. Project Development
 
-![alt text](https://github.com/jvnsep/Project2BubbleDisplay/blob/master/result/flow.png "Development Flow Chart")
+![alt text](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/Development.vsd "Development Flow Chart")
 
 ### b. Circuit Design
 Circuit Diagram: 
