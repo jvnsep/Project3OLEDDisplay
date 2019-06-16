@@ -23,6 +23,9 @@ Materials:
 3. 10kohm potentiometer
 4. 2pcs push button switches
 
+### c. Program Design
+
+![alt text](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/program.png "Program Flow Chart")
 
 ## 4. Discussions
 
