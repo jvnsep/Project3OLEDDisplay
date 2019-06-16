@@ -74,6 +74,10 @@ Materials:
 
 #### 4. End-Screen : game-over state
 <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/4%20end.png" width="300" height="300">
+ 
+### e. System Explanation Video
+
+Link: [Games Video](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/game.mp4)
 
 ## 4. Discussions
 
