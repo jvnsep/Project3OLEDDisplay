@@ -36,13 +36,15 @@ Materials:
 <p align="center">
   <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/logo.bmp" width="400" height="200">
 </p>
+
 #### 2. balloon bitmap image
 <p align="center">
-  <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/balloon.bmp" width="100" height="100">
+  <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/balloon.bmp" width="50" height="50">
 </p>
+
 #### 3. bird bitmap image
 <p align="center">
-  <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/bird.bmp" width="100" height="100">
+  <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/bird.bmp" width="50" height="50">
 </p>
 
 ## 3. Results
