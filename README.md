@@ -41,6 +41,20 @@ Materials:
 |	|down button	|9|
 | |potentiometer |A9|
 
+### b. Finite State
+
+#### 1. Idle/Start State
+
+
+#### 2. Running State
+
+
+#### 3. Paused State
+
+
+#### 4. Game over/End State
+
+
 ## 4. Discussions
 
 ### a. Circuit
