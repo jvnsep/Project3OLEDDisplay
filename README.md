@@ -27,6 +27,18 @@ Materials:
 
 ![alt text](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/program.png "Program Flow Chart")
 
+## 3. Results
+
+### a. Pins Assigment
+
+| OLED Pin No. | Function    | Teensy Pin No. |
+| :-------------: |:------------|:--------------:|
+|1	|GND	|ground	|GND|
+|2	|VCC	|supply	|3.3v|
+|3	|SCL	|serial clock	|19|
+|4	|SDA  |serial data|18|
+
+
 ## 4. Discussions
 
 ### a. Circuit
