@@ -279,3 +279,82 @@ Message function and, Life Score function, will display instruction every screen
 	    display.print(F("Your Score: "));   // text 
 	    display.print(score);               // score
 	  }
+	  // instruction text
+	  display.setTextSize(1);                   // Normal 1:1 pixel scale
+	  display.setTextColor(WHITE);              // Draw white text
+	  display.setCursor(0,display.height()-7);  // Start at top-left corner
+	  switch (Current_State){
+	    case S_Idle:      display.println(F("Press btn to start"));  break;     // start screen instruction
+	    case S_Paused:    display.println(F("Press btn to continue"));  break;  // paused screen instruction
+	    case S_GameOver:  display.println(F("Press btn to restart"));  break;   // end screen instruction
+	    case S_Running:  break; // do nothing
+	  } 
+	  display.display();    // display buffer screen
+	}
+	
+Set up clock frequency, OLED display and push button pinmode.
+
+	// initialize clock , analog resoution, pin modes and current state to idle
+	void setup() {
+	  Wire.setClock(300000);
+
+	   // SSD1306_SWITCHCAPVCC = generate display voltage from 3.3V internally
+	  if(!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) { // Address 0x3C for 128x64
+	    Serial.println(F("SSD1306 allocation failed"));
+	    for(;;); // Don't proceed, loop forever
+	  }
+	  display.clearDisplay();   // adfuit display  
+
+	  analogReadResolution(8);          // sets resolution 16 bits, so analogRead() be 0 to 256
+	  pinMode(UP_BTN, INPUT_PULLUP);    // declare the up push button as an input pullup
+	  pinMode(DN_BTN, INPUT_PULLUP);    // declare the down push button as an input pullup
+
+	  Current_State = S_Idle;           // inital state idle
+	}
+
+main function is loop through switch case for FSM
+
+	// loop through FSM
+	void loop() {
+	  switch (Current_State){
+	    case S_Idle:
+		  display.drawBitmap(0,0,logo_bmp, SCREEN_WIDTH, SCREEN_HEIGHT, WHITE); // start screen
+		  message();  // instruction to start
+		  if (pressedup() || presseddn()) { // press either button
+		    birds_delaytime = 500;          // birds update delay
+		    birds_updatetime= millis();     // birds current update time
+		    randomize(display.width()-20);  // random start position of birds
+		    display.clearDisplay();         // clear display for transition of display
+		    Current_State = S_Running;      // change state to running
+		  }
+		  break;
+	    case S_Running:
+		  balloon();  // update balloon
+		  birds();    // update birds
+		  hit();      // check if hit
+		  if (pressedup() && presseddn()) {Current_State = S_Paused;}         // simutaneous pressed to pause
+		  if (life<=0){ display.clearDisplay(); Current_State = S_GameOver;}  // life zero game over
+		  break;
+	    case S_Paused:
+		  message();  // instruction to continue
+		  if (pressedup() || presseddn()) {   // press either push button
+		    drawpixels(0,display.height()-7,128,display.height(),BLACK); // clear pixels at instruction
+		    birds_updatetime = millis();      // keep update time 
+		    lifescore();                      // display life and score
+		    Current_State = S_Running;        // change state to running
+		  }
+		  break;
+	    case S_GameOver:
+		  message();  // instruction to restart
+		  if (pressedup() || presseddn()) {   // press either push button
+		    display.clearDisplay();     // clear screen
+		    life = 3; score = 0;        // restart initial life and score
+		    birds_delaytime = 500;      // reset birds delay update time
+		    birds_updatetime= millis(); // keep update time 
+		    randomize(display.width()-20);  // random birds position
+		    lifescore();                // display life and score
+		    Current_State = S_Running;  // change state to running
+		  }
+		  break;
+	  } 
+	}
