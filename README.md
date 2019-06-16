@@ -44,7 +44,7 @@ Materials:
 ### b. Finite State
 
 #### 1. Idle/Start State
-![alt text](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/1%20start.png "Start Screen")
+![alt text](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/1%20start.png width="48")
 
 #### 2. Running State
 ![alt text](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/2%20run.png "Running Screen")
