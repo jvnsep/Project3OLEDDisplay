@@ -44,16 +44,16 @@ Materials:
 ### b. Finite State
 
 #### 1. Idle/Start State
-
+![alt text](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/1 start.png "Start Screen")
 
 #### 2. Running State
-
+![alt text](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/2 run.png "Running Screen")
 
 #### 3. Paused State
-
+![alt text](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/3 pause.png "Pause Screen")
 
 #### 4. Game over/End State
-
+![alt text](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/4 end.png "End Screen")
 
 ## 4. Discussions
 
