@@ -77,3 +77,15 @@ SPI and Wire library provide communicate, and Adafruit_GFX and Adafruit_SSD1306 
 	#include <Wire.h>
 	#include <Adafruit_GFX.h>
 	#include <Adafruit_SSD1306.h>
+
+Assigned Pins for push buttons, potentiometer and OLED.
+
+	// Declaration for an SSD1306 display connected to I2C (SDA, SCL pins)
+	#define OLED_RESET     4 // Reset pin # (or -1 if sharing Arduino reset pin)
+	Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+
+	// constant set pin numbers:
+	const uint8_t UP_BTN = 12;             // input pin for up button
+	const uint8_t DN_BTN = 9;              // input pin for down button
+	const uint8_t LR_PTN = A9;             // Analog input pin for potentiometer
+
