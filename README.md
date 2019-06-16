@@ -36,8 +36,10 @@ Materials:
 |GND	|ground	|GND |
 |VCC	|supply	|3.3v |
 |SCL	|serial clock	|SCL0|
-|SDA  |serial data |SDA0
-
+|SDA  |serial data |SDA0 |
+|	|up button	|12 |
+|	|down button	|9|
+| |potentiometer |A9|
 
 ## 4. Discussions
 
