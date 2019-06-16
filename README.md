@@ -9,13 +9,13 @@ The project design an embedded system of a simple computer game. The project sho
 ## 2. Method
 
 ### a. Project Development
-
-![alt text](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/flow.png "Development Flow Chart")
-
+<p align="center">
+  <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/flow.png" width="400" height="400">
+<p align="center">
 ### b. Circuit Design
 Circuit Diagram: 
 
-![alt text](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/circuit.png "Circuit Diagram")
+<img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/circuit.png" width="400" height="400">
 
 Materials:
 1. Teensy 3.2 Microcontroller
@@ -25,7 +25,7 @@ Materials:
 
 ### c. Program Design
 
-![alt text](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/program.png "Program Flow Chart")
+<img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/program.png" width="400" height="400">
 
 ## 3. Results
 
