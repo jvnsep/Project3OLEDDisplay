@@ -30,6 +30,21 @@ Materials:
   <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/program.png" width="400" height="400">
 </p>
 
+### D. Bitmap image coverted to hex by LCDAssistant application
+
+#### 1. Start-Screen, logo and game title
+<p align="center">
+  <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/program.png" width="400" height="200">
+</p>
+#### 2. balloon bitmap image
+<p align="center">
+  <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/program.png" width="100" height="100">
+</p>
+#### 3. bird bitmap image
+<p align="center">
+  <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/program.png" width="100" height="100">
+</p>
+
 ## 3. Results
 
 ### a. Pins Assigment
