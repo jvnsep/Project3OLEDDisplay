@@ -30,7 +30,7 @@ Materials:
   <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/program.png" width="400" height="400">
 </p>
 
-### D. Bitmap image coverted to hex by LCDAssistant application
+### d. Bitmap image coverted to hex by LCDAssistant application
 
 #### 1. Start-Screen, logo and game title
 <p align="center">
