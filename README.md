@@ -71,31 +71,8 @@ Actual Circuit:
 ### b. Program
 
 SPI and Wire library provide communicate, and Adafruit_GFX and Adafruit_SSD1306 for graphic
-
-  #include <Arduino.h>
-  #include <SPI.h>
-  #include <Wire.h>
-  #include <Adafruit_GFX.h>
-  #include <Adafruit_SSD1306.h>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
+#include <Arduino.h>
+#include <SPI.h>
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
