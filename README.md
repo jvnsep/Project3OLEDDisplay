@@ -66,3 +66,13 @@ From circuit diagram above, the main component aside from teensy microcontroller
 
 Actual Circuit: 
 ![alt text](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/picture.png "Circuit Picture")
+
+
+### b. Program
+
+SPI and Wire library provide communicate, and Adafruit_GFX and Adafruit_SSD1306 for graphic
+#include <Arduino.h>
+#include <SPI.h>
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
