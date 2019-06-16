@@ -36,7 +36,23 @@ Materials:
 |GND	|ground	|GND |
 |VCC	|supply	|3.3v |
 |SCL	|serial clock	|SCL0|
-|SDA  |serial data |SDA0
+|SDA  |serial data |SDA0 |
+|	|up button	|12 |
+|	|down button	|9|
+| |potentiometer |A9|
+
+### b. Finite State
+
+#### 1. Idle/Start State
+
+
+#### 2. Running State
+
+
+#### 3. Paused State
+
+
+#### 4. Game over/End State
 
 
 ## 4. Discussions
