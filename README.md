@@ -11,13 +11,14 @@ The project design an embedded system of a simple computer game. The project sho
 ### a. Project Development
 <p align="center">
   <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/flow.png" width="400" height="400">
-<p align="center">
+</p>
   
 ### b. Circuit Design
 Circuit Diagram: 
-
-<img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/circuit.png" width="400" height="400">
-
+<p align="center">
+  <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/circuit.png" width="400" height="400">
+</p>
+  
 Materials:
 1. Teensy 3.2 Microcontroller
 2. 128x64 OLED display SDD1306 I²C version
@@ -25,8 +26,9 @@ Materials:
 4. 2pcs push button switches
 
 ### c. Program Design
-
-<img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/program.png" width="400" height="400">
+<p align="center">
+  <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/program.png" width="400" height="400">
+</p>
 
 ## 3. Results
 
