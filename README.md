@@ -34,15 +34,15 @@ Materials:
 
 #### 1. Start-Screen, logo and game title
 <p align="center">
-  <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/program.png" width="400" height="200">
+  <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/logo.png" width="400" height="200">
 </p>
 #### 2. balloon bitmap image
 <p align="center">
-  <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/program.png" width="100" height="100">
+  <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/balloon.png" width="100" height="100">
 </p>
 #### 3. bird bitmap image
 <p align="center">
-  <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/program.png" width="100" height="100">
+  <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/bird.png" width="100" height="100">
 </p>
 
 ## 3. Results
