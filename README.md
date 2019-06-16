@@ -43,16 +43,16 @@ Materials:
 
 ### b. Finite State Machine
 
-#### 1. Idle/Start
+#### 1. Start-Screen
 <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/1%20start.png" width="300" height="300">
 
-#### 2. Running
+#### 2. Game-Screen
 <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/2%20run.png" width="300" height="300">
 
-#### 3. Paused
+#### 3. Pause-Screen
 <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/3%20pause.png" width="300" height="300">
 
-#### 4. End
+#### 4. End-Screen
 <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/4%20end.png" width="300" height="300">
 
 ## 4. Discussions
