@@ -34,4 +34,4 @@ Materials:
 From circuit diagram above, the main component aside from teensy microcontroller, is 128x64 OLED display SDD1306 with I²C serial bus. This OLED display have 4 pins, they are Vcc supply 3.3v, GND, SCL (serial clock) and SDA (serial data). Each of this pins connected to corresponding pins of Teensy 3.2 Microcontroller. Game control conections are the two push buttons connected to input pin will be use as up and down as well as start, pause and reset game control. additionally, potentiometer use to manipulate left and right control. The actual circuit is shown below image.
 
 Actual Circuit: 
-![alt text](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/picture.jpg "Circuit Picture")
+![alt text](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/picture.png "Circuit Picture")
