@@ -12,6 +12,7 @@ The project design an embedded system of a simple computer game. The project sho
 <p align="center">
   <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/flow.png" width="400" height="400">
 <p align="center">
+  
 ### b. Circuit Design
 Circuit Diagram: 
 
