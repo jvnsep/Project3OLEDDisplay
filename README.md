@@ -32,11 +32,11 @@ Materials:
 ### a. Pins Assigment
 
 | OLED Pin No. | Function    | Teensy Pin No. |
-| :-------------: |:------------|:--------------:|
-|1	|GND	|ground	|GND|
-|2	|VCC	|supply	|3.3v|
-|3	|SCL	|serial clock	|19|
-|4	|SDA  |serial data|18|
+|:-------------:|:------------|:--------------:|
+|GND	|ground	|GND |
+|VCC	|supply	|3.3v |
+|SCL	|serial clock	|SCL0|
+|SDA  |serial data |SDA0
 
 
 ## 4. Discussions
