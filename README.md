@@ -10,16 +10,25 @@ The project design an embedded system of a simple computer game. The project sho
 
 ### a. Project Development
 
-![alt text](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/Development.vsd "Development Flow Chart")
+![alt text](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/flow.png "Development Flow Chart")
 
 ### b. Circuit Design
 Circuit Diagram: 
-![alt text](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/schematic%20diagram.pdf "Circuit Diagram")
+
+![alt text](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/circuit.png "Circuit Diagram")
 
 Materials:
 1. Teensy 3.2 Microcontroller
-2. QDSP-6064 4-Digits 7-Segments LED display
-3. 4pcs IRLU8743PbF Power MOSFETs
-2. 8pcs. 390Ω resistors connected from μC pins to anodes LED display
-3. 4pcs. 1kΩ resistors conneted to drain of mosfets
-4. 2pcs push button switches connected from μC pins to ground 
+2. 128x64 OLED display SDD1306 I²C version
+3. 10kohm potentiometer
+4. 2pcs push button switches
+
+### c. Program Design
+
+![alt text](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/program.png "Program Flow Chart")
+
+## 4. Discussions
+
+### a. Circuit
+
+From circuit diagram above, the main component aside from teensy microcontroller, is 128x64 OLED display SDD1306 with I²C serial bus. This OLED display have 4 pins, they are Vcc supply 3.3v, GND, SCL (serial clock) and SDA (serial data). Each of this pins connected to corresponding pins of Teensy 3.2 Microcontroller. Game control conections are the two push buttons connected to input pin will be use as up and down as well as start, pause and reset game control. additionally, potentiometer use to manipulate left and right control. The actual circuit is shown below image.
