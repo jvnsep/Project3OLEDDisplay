@@ -16,7 +16,7 @@ The project design an embedded system of a simple computer game. The project sho
 ### b. Circuit Design
 Circuit Diagram: 
 <p align="center">
-  <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/circuit.png" width="400" height="400">
+  <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/circuit.png" width="500" height="500">
 </p>
   
 Materials:
