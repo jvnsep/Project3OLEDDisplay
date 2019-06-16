@@ -41,19 +41,19 @@ Materials:
 |	|down button	|9|
 | |potentiometer |A9|
 
-### b. Finite State
+### b. Finite State Machine
 
-#### 1. Idle/Start State
-<img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/1%20start.png" width="400" height="400">
+#### 1. Idle/Start
+<img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/1%20start.png" width="300" height="300">
 
-#### 2. Running State
-<img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/2%20run.png" width="400" height="400">
+#### 2. Running
+<img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/2%20run.png" width="300" height="300">
 
-#### 3. Paused State
-<img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/3%20pause.png" width="400" height="400">
+#### 3. Paused
+<img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/3%20pause.png" width="300" height="300">
 
-#### 4. Game over/End State
-<img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/4%20end.png" width="400" height="400">
+#### 4. End
+<img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/4%20end.png" width="300" height="300">
 
 ## 4. Discussions
 
