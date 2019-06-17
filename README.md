@@ -395,7 +395,7 @@ Main function is loop through switch case for FSM. First case state is S_Idle, s
 
 ### c. Problem
 
-To pause the game the two push buttons must press simultaneously however it bounce. This may cause by inconsistent timing during press function of the two buttons. Another drawback, there is no delay from state to state, for instant at game-over state if button is press instantly go to running state. 
+To pause the game the two push buttons must press simultaneously however it bounces. This may cause by inconsistent timing during press function of the two buttons. Another drawback, there is no delay from state to state, for instant at game-over state if button is press instantly go to running state. 
 
 ### d. Future Improvement
 
