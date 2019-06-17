@@ -89,7 +89,7 @@ press two button simultaneously to pause
  
 ### c. Video 
 
-Link: [Game Video](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/game.mp4)
+Link: [Game Operation](https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/game.mp4)
 
 ## 4. Discussions
 
