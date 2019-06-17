@@ -100,7 +100,7 @@ Actual Circuit:
 
 ### b. Program
 
-SPI and Wire library provide communicate, and Adafruit_GFX and Adafruit_SSD1306 for graphic
+SPI and Wire library provide communication between microcontroller and OLED, with Adafruit_GFX and Adafruit_SSD1306 library for graphic.
 
 	#include <Arduino.h>
 	#include <SPI.h>	
@@ -119,7 +119,7 @@ Assigned Pins for push buttons, potentiometer and OLED.
 	const uint8_t DN_BTN = 9;              // input pin for down button
 	const uint8_t LR_PTN = A9;             // Analog input pin for potentiometer
 
-Define variables, arrays, constant and state data type
+Define variables, arrays, constant and state data type.
 
 	// contant and variables for balloon location (direction, and start, new and old position)
 	const uint8_t STR_X = display.width()/8, STR_Y = display.height()/2;  // start position
@@ -148,7 +148,7 @@ Define variables, arrays, constant and state data type
 
 	states Current_State = S_Idle;  // initial state, start screen for the game
 
-create for each Push buttons Functions
+Create functions for each Push buttons.
 
 	// up push button control
 	bool pressedup(){
@@ -167,7 +167,7 @@ create for each Push buttons Functions
 
 	}
 
-Balloon update function, will update new position and display balloon, and before old position balloon display black.
+Balloon update function, will update new position and display balloon, and previous position of balloon display black.
 
 	/ balloon updates
 	void balloon(){
@@ -203,7 +203,7 @@ Balloon update function, will update new position and display balloon, and befor
 	   }
 	}
 	
-Birds update function and randomize function, will update each bird poasition, randomize direction and start position.
+Birds update function and randomize function, will update each bird poasition, randomize direction and start position. Increment score a the birds reach zero position at x-axis.
 
 	// random position of birds
 	void randomize(u_int32_t startx){
@@ -253,7 +253,7 @@ Birds update function and randomize function, will update each bird poasition, r
 	  }
 	}
 
-Hit function will define when birds hit the balloon.
+Hit function will define when birds hit the balloon, decrement the life of balloon.
 
 	// instant birds hit the balloon
 	void hit() {
@@ -275,7 +275,7 @@ Hit function will define when birds hit the balloon.
 	  }
 	}
 	
-Message function and, Life Score function, will display instruction every screen state and, life and score of the game.
+Message function and Life Score function, this will display instruction every screen state, life and score of the game.
 
 	// show life and score
 	void lifescore(){
@@ -342,7 +342,7 @@ Set up clock frequency, OLED display and push button pinmode.
 	  Current_State = S_Idle;           // inital state idle
 	}
 
-main function is loop through switch case for FSM
+Main function is loop through switch case for FSM. First case state is S_Idle, start of game display the logo and title. As any button is press the game S_running state, then is playing. To pause the game press both button simutaneously, the game is S_pause state. Press any button will resume the playing until life is zero, S_GameOver state will be display on the screen. Preesing any button again will restart the game.
 
 	// loop through FSM
 	void loop() {
