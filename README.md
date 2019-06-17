@@ -69,10 +69,11 @@ Materials:
 </p>
 
 #### 2. Game-Screen : running state
+press two button simultaneously to pause
 <p align="center">
  <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/2%20run.png" width="300" height="300">
 </p>
-	press two button simultaneously to pause
+	
 #### 3. Pause-Screen : paused state
 <p align="center">
  <img src="https://github.com/jvnsep/Project3OLEDDisplay/blob/master/result/3%20pause.png" width="300" height="300">
